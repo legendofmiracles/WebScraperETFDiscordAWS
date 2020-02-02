@@ -19,7 +19,6 @@ function extractListingsFromHTML(html) {
     changeInPerc
   });
 
-  console.log(infos);
 
   return infos;
 }
