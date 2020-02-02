@@ -8,5 +8,5 @@ functions:
   getetfprice:
     handler: handler.getetfprice
     events:
-      - schedule: rate(1 minute)
-      # - schedule: cron(18 30 * * ? *)
+      #- schedule: rate(1 minute)
+      - schedule: cron(18 30 * * ? *)
